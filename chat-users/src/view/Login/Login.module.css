@@ -1,0 +1,41 @@
+.login {
+  margin: auto;
+  padding: 20px;
+  width: 400px;
+  height: 270px;
+  background-color: skyblue;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.title {
+  margin-bottom: 20px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 50px;
+  height: 180px;
+}
+
+.form input {
+  height: 30px;
+}
+
+.btn {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
+}
